@@ -1,0 +1,51 @@
+/* Grundlegendes Styling und Schriftarten */
+body {
+    background-color: #FEFFC0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Stil für die Verspätungskästen */
+.delay-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* Farbkodierung basierend auf der Verspätungszeit */
+.delay-0-1 {
+    background-color: #5EF251; /* Grün für 0-1 Minute Verspätung */
+}
+
+.delay-2-4 {
+    background-color: #FFF505; /* Gelb für 2-4 Minuten Verspätung */
+    color: black; /* Änderung der Textfarbe zu Schwarz für bessere Lesbarkeit */
+}
+
+.delay-5-8 {
+    background-color: #FCB706; /* Orange für 5-8 Minuten Verspätung */
+}
+
+.delay-9-plus {
+    background-color: #FF0000; /* Rot für mehr als 8 Minuten Verspätung */
+}
+
+/* Stil für Wochentage und Zahlen */
+.weekday, .number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Stil für Städtenamen */
+.city-name {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Weitere Stilisierungen könnten hier hinzugefügt werden, je nach weiteren Anforderungen */
